@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+selenium = "*"
+beautifulsoup4 = "*"
+pyqt5 = "*"
+undetected-chromedriver = "*"
+setuptools = "*"
+webdriver-manager = "*"
+
+[dev-packages]
+pyinstaller = "*"
+
+[requires]
+python_version = "3.12"
